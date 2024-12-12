@@ -29,10 +29,15 @@ button{
     margin-bottom: 15px;
     border-radius: 5px;
     box-shadow:rgb(61, 58, 58);
-
+    cursor: pointer;
 
 }
-h3{
+button:hover{
+    background-color: rgb(33, 241, 33);
+    color: rgb(213, 206, 206);
+    transition: 0.2s;
+}
+a{
     color: rgb(33,241,33);
     margin-left: 250px;
     margin-top:-34px;
